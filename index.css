@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background: #e7e7e9;
+}
+
+.container{
+  width: 100%;
+}
+
+.Squirrel_menu{
+  width: 100%;
+  height: 60px;
+}
+
+.Squirrel_menu ul{
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  text-align: center;
+  line-height: 59px;
+  position: relative;
+}
+
+.Squirrel_menu ul li{
+  display: inline-block;
+  width: 0 15px;
+  padding: 0 15px;
+}
+
+.Squirrel_menu ul a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 12px;
+  display: block;
+}
+
+.Squirrel_menu ul li .submenu{
+  position: absolute;
+  background: #2c2c2c;
+  width: 100%;
+  left: 0;
+  top: 60px;
+  padding: 25px 15px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 24px;
+  visibility: hidden;
+}
+
+.Squirrel_menu ul li:hover{
+  background: #2c2c2c;
+}
+
+.Squirrel_menu ul li .btn_slogan{
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+  text-align: center;
+  box-sizing: border-box;
+  color:white;
+  margin: 10px;
+  top: 10px;
+}
+
+.Squirrel_menu ul li:hover .submenu{
+  visibility:visible;
+}
+
+.Squirrel_menu ul li .submenu .col img{
+  width: 250px;
+  height: 180px;
+  display: block;
+}
+
+.Squirrel_menu ul li .submenu p{
+  color: #fff;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
